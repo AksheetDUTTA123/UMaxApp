@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            VStack {
+                NavigationLink(destination:CameraView()){
+                    Text("Click for Camera").frame(width:300, height:200, alignment: .center).background(Color.black).foregroundColor(Color.yellow).cornerRadius(30)
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
