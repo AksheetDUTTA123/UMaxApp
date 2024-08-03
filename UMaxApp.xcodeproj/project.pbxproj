@@ -15,6 +15,7 @@
 		241DBB0E2C5D4CE700E9156F /* UMaxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241DBB0D2C5D4CE700E9156F /* UMaxAppUITests.swift */; };
 		241DBB102C5D4CE700E9156F /* UMaxAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241DBB0F2C5D4CE700E9156F /* UMaxAppUITestsLaunchTests.swift */; };
 		241DBB212C5D70A100E9156F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241DBB202C5D70A100E9156F /* CameraView.swift */; };
+		2460FD1C2C5EAFCE00314AA1 /* AnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2460FD1B2C5EAFCE00314AA1 /* AnalyzeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		241DBB0D2C5D4CE700E9156F /* UMaxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMaxAppUITests.swift; sourceTree = "<group>"; };
 		241DBB0F2C5D4CE700E9156F /* UMaxAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMaxAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		241DBB202C5D70A100E9156F /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2460FD1B2C5EAFCE00314AA1 /* AnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				241DBAF22C5D4CE400E9156F /* UMaxAppApp.swift */,
 				241DBAF42C5D4CE400E9156F /* ContentView.swift */,
 				241DBB202C5D70A100E9156F /* CameraView.swift */,
+				2460FD1B2C5EAFCE00314AA1 /* AnalyzeView.swift */,
 				241DBAF62C5D4CE700E9156F /* Assets.xcassets */,
 				241DBAF82C5D4CE700E9156F /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				241DBB212C5D70A100E9156F /* CameraView.swift in Sources */,
 				241DBAF52C5D4CE400E9156F /* ContentView.swift in Sources */,
 				241DBAF32C5D4CE400E9156F /* UMaxAppApp.swift in Sources */,
+				2460FD1C2C5EAFCE00314AA1 /* AnalyzeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
